@@ -11,3 +11,139 @@ body {
 image {
     max-width: 100%;
 }
+header {
+    margin: 60px 5vw 65px 5vw;
+}
+#mainvisual img {
+    width: 100%;
+    margin-bottom: 36px;
+}
+nav {
+    display: flex;
+}
+nav img {
+    height: 16px;
+    margin-right: 16px;
+}
+nav a {
+    font-size: 14px;
+    margin-left: 33px;
+    text-decoration: none;
+    color: black;
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 18px;
+}
+#concept {
+    display: flex;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.concept_img {
+    width: 50%;
+}
+.concept_img img {
+    width: 100%;
+    height: auto;
+}
+.concept_text {
+    width: 50%;
+    margin: auto 0;
+}
+.concept_text h1 {
+    font-size: 24px;
+    margin: 0 67px 17px 67px;
+}
+.concept_text h2 {
+    font-size: 16px;
+    margin: 0 67px 31px 67px;
+}
+.concept_text p {
+    margin: 0 67px;
+}
+#work {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-bottom: 84px;
+}
+.work_img {
+    width: 50%;
+}
+.work_img img {
+    width: 100%;
+    height: auto;
+}
+.work_text {
+    width: 50%;
+    margin: auto 0;
+}
+.work_text h1 {
+    font-size: 24px;
+    margin: 0 67px 17px 67px;
+}
+.work_text h2 {
+    font-size: 16px;
+    margin: 0 67px 31px 67px;
+}
+.work_text p {
+    margin: 0 67px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+footer img {
+    height: 16px;
+}
+footer p {
+    font-size: 14px;
+}
+@media screen and (max-width:767px){
+    header {
+        margin: 0 0 65px 0;
+    }
+    nav {
+        margin: 0 5vw;
+    }
+    #concept {
+        flex-direction: column;
+    }
+    .concept_img {
+        width: 100%;
+    }
+    .concept_text {
+        width: 100%;
+    }
+    .concept_text h1 {
+        margin: 0 0 17px 0;
+    }
+    .concept_text h2 {
+        margin: 0 0 31px 0;
+    }
+    .concept_text p {
+        margin: 0;
+    }
+    #work {
+        flex-direction: column;
+    }
+    .work_img {
+        width: 100%;
+    }
+    .work_text {
+        width: 100%;
+    }
+    .work_text h1 {
+        margin: 0 0 17px 0;
+    }
+    .work_text h2 {
+        margin: 0 0 31px 0;
+    }
+    .work_text p {
+        margin: 0;
+    }
+}
+
